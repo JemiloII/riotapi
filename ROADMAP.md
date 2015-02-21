@@ -1,5 +1,5 @@
 # Roadmap
-
+####More is to come to this list. If there is a feature you would like to see, please add a pull request.
 ## Goals:
 - Create a browser interface
   - Select Champion
@@ -14,8 +14,6 @@
   - Allows us to do computations on the backend
   - Allows us to store user build data
   - Allows us to create build exports to league of legends game
-  
-More is to come to this list. If there is a feature you would like to see, please add a pull request.
 
 Tools:
  - Bunyan
