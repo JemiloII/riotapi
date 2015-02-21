@@ -1,5 +1,5 @@
 # Roadmap
-####More is to come to this list. If there is a feature you would like to see, please add a pull request.
+###### More is to come to this list. If there is a feature you would like to see, please add a pull request.
 ## Goals:
 - Create a browser interface
   - Select Champion
@@ -15,7 +15,7 @@
   - Allows us to store user build data
   - Allows us to create build exports to league of legends game
 
-Tools:
+## Tools:
  - Bunyan
  - Moment
  - Numbers
@@ -25,13 +25,13 @@ Tools:
  - Primus
  - Sails
  
-Still need to decide:
+## Still need to decide:
  - CSS3 Wireframe/Framework
  - Polymer or Custom Framework
  - ws or fraye (websocket stuff)
  - Maria/Couch/Postgres/Redis
  
-Banned Tools:
+## Banned Tools:
  - jQuery (no clutches, HTML5 only browsers)
  - LoDash (we use ramda)
  - Underscore (we use ramda)
