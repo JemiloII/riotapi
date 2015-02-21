@@ -24,6 +24,10 @@
  - Atom-shell
  - Primus
  - Sails
+ - Gulp
+ - Bower
+ - Mocha
+ - Chai
  
 ## Still need to decide:
  - CSS3 Wireframe/Framework
