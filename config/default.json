@@ -1,3 +1,6 @@
 {
-  "riotApiKey": null
+	"api_key": null,
+	"version": "5.3.1",
+	"region": "na",
+	"locales": "en_US"
 }
