@@ -11,5 +11,5 @@ logs
 node_modules
 
 # Configuration files
-config/local.json
+config/local*.json
 config/production*.json
