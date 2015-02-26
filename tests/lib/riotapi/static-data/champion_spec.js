@@ -1,7 +1,6 @@
 'use strict';
 // todo: write test
 
-
 champion();
 champion({
 	locale: 'en_US',
