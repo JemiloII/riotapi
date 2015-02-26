@@ -1,5 +1,5 @@
 # Roadmap
-###### More is to come to this list. If there is a feature you would like to see, please add a pull request.
+###### Because this is javascript, our goal is to write the javascript once, and have it be able to work both with node.js and the browsers. I also Want to utilize atom-shell later on so we can have our own desktop application. More is to come to this list. If there is a feature you would like to see, please add a pull request.
 ## Goals:
 - Create a browser interface
   - Select Champion
