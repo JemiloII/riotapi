@@ -1,10 +1,10 @@
 {
-  "name": "league-of-legends-calculator",
-  "version": "0.0.5",
-  "description": "This is an open source League of Legends calculator. The goal of this project is to use the riot api to keep our calculator consistently up to date.",
+  "name": "riotapi",
+  "version": "0.5.5",
+  "description": "This is an open source League of Legends RiotAPI Library.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha tests"
   },
   "repository": {
     "type": "git",
@@ -14,12 +14,12 @@
     "league",
     "of",
     "legends",
-    "calculator",
-    "build",
-    "tool",
-    "gold",
-    "per",
-    "minute",
+    "riotapi",
+    "riot",
+    "api",
+    "static-data",
+    "champions",
+    "node",
     "masteries",
     "runes",
     "items"
@@ -37,7 +37,7 @@
     "moment": "^2.9.0",
     "numbers": "^0.6.0",
     "ramda": "^0.10.0",
-    "request": "^2.53.0"
+    "sync-request": "^2.0.1"
   },
   "devDependencies": {
     "chai": "^2.0.0",
