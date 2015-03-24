@@ -5,19 +5,3 @@ This is an open source League of Legends api. The goal of this project is to be 
 
 // Todo: Document static-data/champion module, Create mocha test, then it's finished.
 
-|Not Started  |  Started  |  Needs Tests  |  Done  |
-|-------------|-----------|---------------|--------|
-|             |           |               |        |
-|             |           |               |        |
-|             |           |               |        |
-|             |           |               |        |
-|             |           |               |        |
-|             |           |               |        |
-|             |           |               |        |
-|             |           |               |        |
-|             |           |               |        |
-|             |           |               |        |
-|             |           |               |        |
-|             |           |               |        |
-|             |           |               |        |
-|             |           |               |        |
