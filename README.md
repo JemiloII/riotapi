@@ -1,6 +1,13 @@
-# league-of-legends-calculator
-This is an open source League of Legends calculator. The goal of this project is to use the riot api to keep our calculator consistently up to date.
+# riotapi
+This is an open source League of Legends api. The goal of this project is to be callback free and promise free. How? By spawning temporary child processes of course!
 
-// Will be using data.future, which has been renamed to data.task for handling future data request.
+// Using sync-request for synchronously retrieving http request.
 
 // Todo: Document static-data/champion module, Create mocha test, then it's finished.
+
+|Not Started  |  Started  |  Needs Tests  |  Done  |
+|-------------|-----------|---------------|--------|
+|             |           |               |        |
+|             |           |               |        |
+|             |           |               |        |
+|             |           |               |        |
