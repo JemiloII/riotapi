@@ -5,10 +5,16 @@ This is an open source League of Legends api. The goal of this project is to be 
 
 // Todo: Document static-data/champion module, Create mocha test, then it's finished.
 
-
 -------------------------------------------------------------------
 | File                                |   Started   |  Have Test? |
 |-------------------------------------|-------------|-------------|
+| champion/champion.js                |             |             |
+| current-game/current-game.js        |             |             |
+| featured-games/featuredgames.js     |             |             |
+| games/games.js                      |             |             |
+| league/league.js                    |             |             |
+| lol-static-data/champion.js         |             |             |
+| lol-static-data/item.js             |             |             |
 | lol-static-data/league-strings.js   |             |             |
 | lol-static-data/langauge.js         |             |             |
 | lol-static-data/map.js              |             |             |
@@ -23,4 +29,4 @@ This is an open source League of Legends api. The goal of this project is to be 
 | stats/stats.js                      |             |             |
 | summoner/*.js                       |             |             |
 | team /*.js                          |             |             |
-------------------------------------------------------------------|
+-------------------------------------------------------------------
