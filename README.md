@@ -11,3 +11,13 @@ This is an open source League of Legends api. The goal of this project is to be 
 |             |           |               |        |
 |             |           |               |        |
 |             |           |               |        |
+|             |           |               |        |
+|             |           |               |        |
+|             |           |               |        |
+|             |           |               |        |
+|             |           |               |        |
+|             |           |               |        |
+|             |           |               |        |
+|             |           |               |        |
+|             |           |               |        |
+|             |           |               |        |
