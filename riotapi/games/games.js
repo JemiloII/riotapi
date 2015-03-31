@@ -1,7 +1,7 @@
 'use strict';
 
-var keysInValues = require('../../helpers/keysInValues'),
-	_            = require('../../helpers/lambda-ramda'),
+var keysInValues = require('../../lib/helpers/keysInValues'),
+	_            = require('../../lib/helpers/lambda-ramda'),
 	config       = require('config'),
 	request      = require('sync-request'),
 
