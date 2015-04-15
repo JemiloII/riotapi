@@ -1,10 +1,11 @@
 'use strict';
 
-var keysInValues = require('../../helpers/keysInValues'),
-	_            = require('../../helpers/lambda-ramda'),
-	champions    = require('../../../constants/champions.json'),
+var keysInValues = require('../../lib/helpers/keysInValues'),
+	_            = require('../../lib/helpers/lambda-ramda'),
+	champions    = require('../../constants/champions.json'),
 	config       = require('config'),
-	request      = require('request'),
+	log			 = require('../../lib/logger').getLogger(),
+	request      = require('sync-request'),
 	url          = 'https://' + config.region +
 				   '.api.pvp.net/api/lol/' +
 				   config.region + '/v1.2/champion',
@@ -28,25 +29,32 @@ var keysInValues = require('../../helpers/keysInValues'),
 
 	getAllChampions = function (options) {
 		var encoding = options && options.encoding || config.encoding;
-		return request('GET', url + query(defaults, options)).getBody(encoding);
+		log.info(encoding);
+		log.info(url + query(defaults, options));
+		return JSON.parse(
+			request('GET', url + query(defaults, options)).getBody(encoding)
+		);
 	},
 
 	getChampion = function (champion, options) {
-		var encoding = options && options.encoding || config.encoding;
-		return request('GET', url + '/' + championId(champion) + query(defaults, options)).getBody(encoding);
+		var encoding = options && options.encoding || config.encoding
+		return JSON.parse(
+			request('GET', url + '/' + championId(champion) + query(defaults, options)).getBody(encoding)
+		);
 	},
 
 	champion = function (champion, options) {
 		if (champion === 'freetoplay' ||
 			champion === 'free to play' ||
 			champion === 'freeToPlay') {
-			getAllChampions({ freeToPlay: true });
+			return getAllChampions({ freeToPlay: true });
 		} else if(!arguments.length) {
-			getAllChampions();
+			log.info('No Arguments')
+			return getAllChampions();
 		} else if (_.is(Object, arguments[0])) {
-			getAllChampions(arguments[0]);
+			return getAllChampions(arguments[0]);
 		} else {
-			getChampion(champion, options);
+			return getChampion(champion, options);
 		}
 	};
 
